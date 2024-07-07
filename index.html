@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="main">
+            <h1 class="headings"><span id="auto-type"></span></h1>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <h1 class="headings">ABOUT ME</h1>
+            <div class="about-content">
+                <img src="background.jpg" alt="Masuma Rasuli">
+                <div class="intro">
+                    <h2>MASUMA RASULI</h2>
+                    <p>Welcome to my portfolio! I am a passionate and creative graphic designer dedicated to bringing your ideas to life through compelling and innovative designs. With a strong background in visual communication and a keen eye for detail, I specialize in branding,digital painting , and print media.
+
+                        My work is driven by a love for aesthetics and functionality, ensuring that every project not only looks great but also effectively communicates the intended message. Explore my portfolio to see a showcase of my skills and the diverse range of projects I've had the pleasure to work on.
+                        
+                        Thank you for visiting, and I look forward to the possibility of collaborating with you!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="pro1.jpg" alt="">
+            <img src="pro2.jpg" alt="">
+            <img src="pro3.jpg" alt="">
+            <img src="pro4.jpg" alt="">
+            <img src="pro5.jpg" alt="">
+            <img src="pro6.jpg" alt="">
+            <img src="pro7.jpg" alt="">
+            <img src="pro8.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter your name">
+            <input type="email" name="email" class="input" placeholder="Enter your email">
+            <textarea name="msg" class="input" id="msg" cols="30" rows="10" placeholder="Enter your message"></textarea>
+            <input type="submit" value="Send" id="send">
+        </form>
+    </section>
+    <footer>
+        <p>Made by: Masuma Rasuli</p>
+    </footer>
+
+    <!-- Modal Structure -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
